@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <link rel="stylesheet" href="/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <div id="container" class="container">
+
+    <i onclick="responsive()" class="fa fa-bars menu" id="bar" style="font-size:36px"></i>
+
+    <div class="top">
+      <img src="/images/logo.svg" alt="" class="logo">
+
+      <header id="header" class="header">
+  
+        <div class="left">
+  
+          <div onclick="firstAction() " class="down-arrow inside-left" id="features">
+            <p>Features</p>
+            <img src="/images/icon-arrow-down.svg" alt="">
+
+          </div>
+  
+          <div onclick="secondAction()" class="down-arrow inside-left" id="company">
+            <p>Company</p>
+            <img src="/images/icon-arrow-down.svg" alt="">
+          </div>
+  
+          <div class="inside-left" id="careers">Careers</div>
+          <div class="inside-left" id="about">About</div>
+    
+        </div>
+    
+        <div class="right">
+    
+          <div id="login">Login</div>
+          <button id="register">Register</button>
+    
+        </div>
+        
+      </header>
+    </div>
+
+    <main class="main">
+
+      <div class="content">
+
+        <h1>Make remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+        <button>Learn more</button>
+
+        <footer class="footer">
+          
+          <img src="/images/client-databiz.svg" alt="">
+          <img src="/images/client-audiophile.svg" alt="">
+          <img src="/images/client-meet.svg" alt="">
+          <img src="/images/client-maker.svg" alt="">
+        </footer>
+
+      </div>
+
+      <div class="hero-image">
+
+        <img class="hero-desktop" src="/images/image-hero-desktop.png" alt="">
+        <img class="hero-mobile" src="/images/image-hero-mobile.png" alt="">
+
+      </div>
+
+    </main>
+
+    <div id="list-one" class="features">
+
+      <div class="todolist">
+        <img src="/images/icon-todo.svg" alt="">
+        <p>Todo List</p>
+      </div>
+
+      <div class="calender">
+        <img src="/images/icon-calendar.svg" alt="">
+        <p>Calender</p>
+      </div>
+
+      <div class="reminder">
+        <img src="/images/icon-reminders.svg" alt="">
+        <p>Reminders</p>
+      </div>
+
+      <div class="planning">
+        <img src="/images/icon-planning.svg" alt="">
+        <p>Planning</p>
+      </div>
+
+    </div>
+
+    <div id="list-two" class="company">
+      <p>History</p>
+      <p>Our Team</p>
+      <p>Blog</p>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <div id="original" class="">
+
+    <i id="cross" onclick="responsive()" class="fa fa-close" style="font-size:36px"></i>
+  
+    <div id="TOP">
+
+      <div id="FEA">
+        
+        <div onclick="fealist()" class="arrow">
+          <p>Features</p>
+          <img id="fea-arrow" src="/images/icon-arrow-down.svg" alt="">
+        </div>
+
+        <div id="FEA-LIST">
+
+          <div >
+            <img src="/images/icon-todo.svg" alt="">
+            <p>Todo List</p>
+          </div>
+    
+          <div >
+            <img src="/images/icon-calendar.svg" alt="">
+            <p>Calender</p>
+          </div>
+    
+          <div >
+            <img src="/images/icon-reminders.svg" alt="">
+            <p>Reminders</p>
+          </div>
+    
+          <div >
+            <img src="/images/icon-planning.svg" alt="">
+            <p>Planning</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="COMP">
+        
+        <div onclick="comlist()" class="arrow">
+          <p>Company</p>
+          <img id="com-arrow" src="/images/icon-arrow-down.svg" alt="">
+        </div>
+
+        <div id="COMP-LIST">
+          <p>History</p>
+          <p>Our Team</p>
+          <p>Blog</p>
+        </div>
+      </div>
+
+      <div id="CAR">Careers</div>
+      <div id="ABT">About</div>
+
+    </div>
+
+    <div id="BOTTOM">
+
+      <div id="LOG">Login</div>
+      <button id="REG">Register</button>
+
+    </div>
+    
+  </div>
+
+
+
+
+
+  <script src="/script.js"></script>
+  
+</body>
+</html>
